@@ -1,0 +1,22 @@
+.contenedor-header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+@media screen and (max-width:768px) {
+    .contenedor-header{
+        padding: 15px;
+    }
+    .contenedor-header input{
+        width: 120px;
+    }
+}
+@media screen and (max-width:350px) {
+    .contenedor-header{
+        padding: 15px 10px;
+    }
+    .contenedor-header input{
+        width: 110px;
+    }
+}
